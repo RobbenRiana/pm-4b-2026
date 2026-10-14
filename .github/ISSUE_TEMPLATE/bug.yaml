@@ -7,6 +7,7 @@ assignees:
   - octocat
 type: bug
 body:
+
 - type: textarea
   id: what-happened
   attributes:
@@ -16,7 +17,6 @@ body:
     value: "A bug happened!"
     validations:
       required: true
-
 - type: input
   id: contact
   attributes:
@@ -25,7 +25,6 @@ body:
      placeholder: ex. email@example.com
      validations:
       required: false
-
 - type: dropdown
   id: version
   attributes:
